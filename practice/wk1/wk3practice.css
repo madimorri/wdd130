@@ -12,6 +12,10 @@
             <a href="https://www.churchofjesuschrist.org/temples">Temples</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
         </nav>
+        #active {
+            background-color: white;
+            color: steelblue;
+        }
     </header>
     <main>
         <h1>Brigham Young University Idaho</h1>
