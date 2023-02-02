@@ -1,10 +1,6 @@
 <body>
     <div id="content">
-        <header>
-        div {
-            width: 1600px;
-            margin: 0 auto;
-          }  
+        <header> 
      #background {
         height: 725px;
         }
@@ -68,6 +64,6 @@
         .icon {
             width: 80px;
         }
-            </footer>
-     </div>
+        </footer>
+    </div>
 </body>
