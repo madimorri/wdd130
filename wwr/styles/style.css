@@ -114,7 +114,7 @@ footer .social img {
     grid-column-end: 4;
     grid-row: 2/3;
     margin: 200px 0;
-    align-items: center;
+    align-items: left;
 }
 .camping-card {
     grid-column: 5/7;
@@ -126,7 +126,7 @@ footer .social img {
     grid-column: 8/10;
     grid-row: 2/3;
     margin: 200px 0;
-    align-items: center;
+    align-items: right;
 }
 .card-img {
     border: 10px solid black;
