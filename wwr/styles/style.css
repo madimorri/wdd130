@@ -159,7 +159,15 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
 }
-
+p3 {
+    align-items: center;
+}
+.home-grid {
+    align-self: center;
+}
+h2 {
+    align-self: center;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -202,4 +210,9 @@ main section img {
         margin-top: 25px;
     }
 }
-    
+.camping-card{
+    align-items: center;
+}
+div1{
+    align-items: center;
+}
