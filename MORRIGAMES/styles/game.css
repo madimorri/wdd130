@@ -26,15 +26,16 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
-.column {
-    float: left;
-    width: 50%;
+
+header {
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #AC77C8;
+
 }
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
+head {
+    background-color: #AC77C8;
+
 }
 
 nav {
@@ -42,17 +43,29 @@ nav {
     text-align: center;
     font-size: 35px;
     word-spacing: 15px;
-    grid-template-columns: 25%, 25%, 25%, 25%;
+
     font: 2em sans-serif;
 }
 
 h1 {
-
-    text-align: center;
     background-color: #FFF76A;
     font-size: 100px;
-    margin-top: 5px;
     font-style: 'Josefin Sans', sans-serif;;
+}
+
+h2 {
+    font-size: 40px;
+    grid-column: 2/3;
+    margin-left: 325px;
+    margin-top: 200px;
+    grid-row: 2;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    grid-column: 2/3;
+    margin-left: 325px;
 }
 
 h4 {
@@ -62,47 +75,35 @@ h4 {
     
 }
 
-h2 {
-    column-count: 3;
-    grid-column: 2/3;
-    text-align: right;
-    font-size: 40px;
-    font-style: var(--headline-color-on-color);
-}
-h3 {
-    text-align: right;
-    font-size: 30px;
-}
-
-header {
-    background-color: #AC77C8;
-    margin-top: 15px;
-}
-
-head {
-    background-color: #AC77C8;
-    margin-top: 15px;
-}
-
 main {
     background-color: #AC77C8;
-    margin-top: 15px;
-    grid-template-columns: auto;
+
 }
 
-img {
-    
-    margin-left: 10px;
-    margin-top: 10px;
-    max-height: 400px;
-    align-self: self-start;
-    
+.img-sprout {
+    width: 300px;
+    grid-column: 1;
 }
 
-logo {
-    margin: 10px;
-    align-self: center;
+.img-forest {
+    width: 300px;
+    grid-column: 1;
 }
+
+.img-human {
+    width: 300px;
+    grid-column: 1;
+}
+
+.Home-Grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#logo {
+    margin-left: 300px;
+}
+
 
 footer {
     background-color: #FFF76A;
