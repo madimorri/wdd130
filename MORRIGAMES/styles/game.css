@@ -83,16 +83,22 @@ main {
 .img-sprout {
     width: 300px;
     grid-column: 1;
+
+    margin-left: 5px;
 }
 
 .img-forest {
     width: 300px;
     grid-column: 1;
+
+    margin-left: 5px;
 }
 
 .img-human {
     width: 300px;
     grid-column: 1;
+
+    margin-left: 5px;
 }
 
 .Home-Grid {
@@ -102,6 +108,7 @@ main {
 
 #logo {
     margin-left: 300px;
+    max-width: 5px;
 }
 
 
