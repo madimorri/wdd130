@@ -84,21 +84,21 @@ main {
 }
 
 .img-sprout {
-    max-width: 30px;
+    max-width: 300px;
     grid-column: 1;
 
     margin-left: 5px;
 }
 
 .img-forest {
-    max-width: 30px;
+    max-width: 300px;
     grid-column: 1;
 
     margin-left: 5px;
 }
 
 .img-human {
-    max-width: 30px;
+    max-width: 300px;
     grid-column: 1;
 
     margin-left: 5px;
@@ -110,7 +110,7 @@ main {
 
 
 #logo {
-    margin-left: 300px;
+    margin-left: 30px;
     max-width: 5px;
 }
 
