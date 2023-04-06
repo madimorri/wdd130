@@ -50,7 +50,8 @@ nav {
 h1 {
     background-color: #FFF76A;
     font-size: 100px;
-    font-style: 'Josefin Sans', sans-serif;;
+    font-style: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 
 h2 {
@@ -111,7 +112,7 @@ main {
 
 #logo {
     margin-left: 30px;
-    max-width: 5px;
+    max-width: 10px;
 }
 
 
