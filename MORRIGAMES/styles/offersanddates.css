@@ -40,21 +40,24 @@ h1 {
     background-color: #FFF76A;
     font-size: 60px;
     margin-top: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Josefin, Arial, sans-serif;
 }
 
 h4 {
     font-size: 30px;
     text-align: center;
+    font-family: Josefin, Arial, sans-serif;
 }
 
 h2 {
     text-align: center;
     font-size: 40px;
+    font-family: Josefin, Arial, sans-serif;
 }
 h3 {
     text-align: center;
     font-size: 30px;
+    font-family: Josefin, Arial, sans-serif;
 }
 
 header {
